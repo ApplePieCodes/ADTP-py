@@ -1,0 +1,18 @@
+[project]
+name = "adtp"
+version = "1.0.0"
+authors = [
+    { name="Liam Greenway", email="liamgr33nway@gmail.com" }
+]
+description = "A set of builders for the ADTP Protocol"
+readme = "README.md"
+requires-python = ">3.13"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+license = "MIT"
+
+[project.urls]
+Issues = "https://github.com/ApplePieCodes/ADTP-py/issues"
+Homepage = "https://applepiecodes.github.io/adtp"

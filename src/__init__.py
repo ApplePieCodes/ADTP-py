@@ -53,7 +53,7 @@ class RequestBuilder:
         self.method: Method = Method.Check
         self.headers: dict[str, str] = {}
         self.uri: str = "/"
-        self.body: str = ""
+        self.content: str = ""
 
     def set_version(self, version: Version) -> None:
         self.version = version
@@ -67,8 +67,8 @@ class RequestBuilder:
     def set_uri(self, uri: str) -> None:
         self.uri = uri
 
-    def set_body(self, body: str) -> None:
-        self.body = body
+    def set_content(self, content: str) -> None:
+        self.content = content
 
     def build(self) -> str:
         return json.dumps(self, default=_serializer)

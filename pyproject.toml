@@ -1,6 +1,6 @@
 [project]
 name = "adtp"
-version = "1.0.0"
+version = "1.0.1"
 authors = [
     { name="Liam Greenway", email="liamgr33nway@gmail.com" }
 ]
